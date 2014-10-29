@@ -67,6 +67,7 @@
     <copy todir="${outdir}/nxr/lib" overwrite="true">
       <artifact:set>
         <includes>
+          <artifact groupId="!org.nuxeo*" scope="!test" />
           <artifact groupId="org.nuxeo.lib*" scope="!test" />
         </includes>
       </artifact:set>
