@@ -3,17 +3,17 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>6.0</version>
+    <version>6.0-HF30-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.scan.importer</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Scan Importer Marketplace package parent</name>
-  <version>1.1.0</version>
+  <version>1.1.1-SNAPSHOT</version>
 
   <properties>
-    <marketplace.scan.importer.version>1.1.0</marketplace.scan.importer.version>
+    <marketplace.scan.importer.version>1.1.1-SNAPSHOT</marketplace.scan.importer.version>
   </properties>
 
   <modules>
