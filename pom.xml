@@ -10,10 +10,10 @@
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Scan Importer Marketplace package parent</name>
-  <version>1.3.3-SNAPSHOT</version>
+  <version>1.3.4-SNAPSHOT</version>
 
   <properties>
-    <marketplace.scan.importer.version>1.3.3-SNAPSHOT</marketplace.scan.importer.version>
+    <marketplace.scan.importer.version>1.3.4-SNAPSHOT</marketplace.scan.importer.version>
   </properties>
 
   <modules>
