@@ -7,9 +7,9 @@
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
-  <artifactId>webdriver</artifactId>
-  <name>WebDriver functional tests for the Scan Importer</name>
-  <description>WebDriver functional tests for the Scan Importer</description>
+  <artifactId>startup</artifactId>
+  <name>Startup tests for the Scan Importer</name>
+  <description>Startup tests for the Scan Importer</description>
 
   <properties>
     <some.password>setTheValueInYourSettings</some.password>
@@ -42,8 +42,7 @@
     </dependency>
     <dependency>
       <groupId>org.nuxeo.ecm.distribution</groupId>
-      <artifactId>nuxeo-distribution-tomcat</artifactId>
-      <classifier>nuxeo-cap</classifier>
+      <artifactId>nuxeo-server-tomcat</artifactId>
       <type>zip</type>
       <scope>test</scope>
     </dependency>
